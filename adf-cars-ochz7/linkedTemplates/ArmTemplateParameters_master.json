@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-cars-ochz7"
+		},
+		"ls_sql_password": {
+			"value": ""
+		},
+		"ls_github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_sql_properties_typeProperties_server": {
+			"value": "carsalesserverochz.database.windows.net"
+		},
+		"ls_sql_properties_typeProperties_database": {
+			"value": "carsales"
+		},
+		"ls_sql_properties_typeProperties_userName": {
+			"value": "adminochz"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
