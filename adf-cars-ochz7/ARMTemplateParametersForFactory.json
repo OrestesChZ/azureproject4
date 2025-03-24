@@ -5,8 +5,14 @@
 		"factoryName": {
 			"value": "adf-cars-ochz7"
 		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
 		"ls_sql_password": {
 			"value": ""
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://datalakec4rproject.dfs.core.windows.net/"
 		},
 		"ls_github_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/"
