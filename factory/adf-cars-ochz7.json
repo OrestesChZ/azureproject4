@@ -1,9 +1,0 @@
-{
-	"name": "adf-cars-ochz7",
-	"location": "brazilsouth",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "f5aac5b6-4c0a-4e6d-8b03-faa2fcb5fd9e",
-		"tenantId": "9da36bbb-7597-4d9d-b5a8-777e703fe193"
-	}
-}
