@@ -5,7 +5,7 @@
 			{
 				"name": "COPY_GITDATA",
 				"type": "Copy",
-				"state": "Inactive",
+				"state": "Active",
 				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [],
 				"policy": {
