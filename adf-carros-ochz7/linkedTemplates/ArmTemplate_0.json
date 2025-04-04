@@ -446,8 +446,6 @@
 					{
 						"name": "COPY_GITDATA",
 						"type": "Copy",
-						"state": "Inactive",
-						"onInactiveMarkAs": "Succeeded",
 						"dependsOn": [],
 						"policy": {
 							"timeout": "0.12:00:00",
@@ -471,7 +469,9 @@
 							"sink": {
 								"type": "AzureSqlSink",
 								"writeBehavior": "insert",
-								"sqlWriterUseTableLock": false
+								"sqlWriterUseTableLock": false,
+								"tableOption": "autoCreate",
+								"disableMetricsCollection": false
 							},
 							"enableStaging": false,
 							"translator": {
@@ -622,7 +622,7 @@
 								"referenceName": "ds_git",
 								"type": "DatasetReference",
 								"parameters": {
-									"load_flag": "SalesData.csv"
+									"load_flag": "IncrementalSales.csv"
 								}
 							}
 						],
@@ -630,7 +630,9 @@
 							{
 								"referenceName": "ds_sqldb",
 								"type": "DatasetReference",
-								"parameters": {}
+								"parameters": {
+									"table_name": "IncrementalSales"
+								}
 							}
 						]
 					}
